@@ -49,7 +49,7 @@ fun AboutScreen(navController: NavHostController){
         }
     ) { innerPadding ->
         Text(
-            text = stringResource(R.string.deskripsi),
+            text = stringResource(R.string.copyright),
             modifier = Modifier.padding(innerPadding).padding(16.dp)
         )
     }
