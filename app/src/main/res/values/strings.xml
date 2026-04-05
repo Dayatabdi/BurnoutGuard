@@ -1,7 +1,26 @@
 <resources>
     <string name="app_name">BurnoutGuard</string>
+    <string name="inline1">Cek Tingkat Burnout Kamu</string>
+    <string name="inline2">Jawab jujur ya, supaya hasilnya akurat</string>
+    <string name="jamtidur">Berapa jam kamu tidur rata-rata per malam?</string>
+    <string name="jamtidurEx">Contoh: 6 atau 7.5</string>
 
+    <string name="gejala">Gejala yang kamu rasakan dalam 1 minggu terakhir</string>
+    <string name="mudah_lelah">Mudah lelah dan tidak bertenaga</string>
+    <string name="sulit_fokus">Sulit fokus atau sering overthinking</string>
+    <string name="susah_tidur">Susah tidur atau tidur tidak nyenyak</string>
+    <string name="tidak_bersemangat">Merasa tidak bersemangat dalam melakukan apapun</string>
+    <string name="mudah_marah">Mudah marah atau emosional</string>
+    <string name="overwhelmed">Merasa overwhelmed dengan tugas/kuliah/kerja</string>
 
+    <string name="stres">Seberapa tinggi tingkat stres kamu saat ini?</string>
+    <string name="low">Rendah</string>
+    <string name="medium">Sedang</string>
+    <string name="high">Tinggi</string>
+
+    <string name="tombol_hitung">Cek Burnout Saya</string>
+    <string name="input_invalid">Harap isi jumlah jam tidur dengan benar (0 - 24)</string>
+    <string name="pilih_minimal_satu">Pilih minimal satu gejala ya</string>
     <string name="tentang_aplikasi">Tentang Aplikasi</string>
     <string name="kembali">Kembali</string>
     <string name="bagikan">Bagikan</string>
