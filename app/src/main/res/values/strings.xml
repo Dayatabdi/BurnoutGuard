@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">BurnoutGuard</string>
+
+
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="kembali">Kembali</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="deskripsi">BurnoutGuard adalah aplikasi sederhana untuk membantu mendeteksi tingkat burnout.\n\nAplikasi ini dibuat sebagai tugas asesmen. \n\nBurnout adalah kondisi kelelahan fisik, emosional, dan mental akibat stres berkepanjangan.</string>
+    <string name="copyright"> 2026 BurnoutGuard</string>
+
 </resources>

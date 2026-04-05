@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.dayat0009.mobpro1"
+    namespace = "com.dayat0009.burnoutguard"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.dayat0009.mobpro1"
+        applicationId = "com.dayat0009.burnoutguard"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
