@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BurnoutGuard</string>
+    <string name="inline1">Check Your Burnout Level</string>
+    <string name="inline2">Answer honestly for accurate results</string>
+    <string name="jamtidur">Average sleep hours per night?</string>
+    <string name="jamtidurEx">Example: 6 or 7.5</string>
+
+    <string name="gejala">Symptoms felt in the last week</string>
+    <string name="mudah_lelah">Easily tired and lack of energy</string>
+    <string name="sulit_fokus">Difficulty focusing or overthinking</string>
+    <string name="susah_tidur">Trouble sleeping or restless sleep</string>
+    <string name="tidak_bersemangat">Feeling unenthusiastic about anything</string>
+    <string name="mudah_marah">Easily annoyed or emotional</string>
+    <string name="overwhelmed">Feeling overwhelmed with tasks/studies</string>
+
+    <string name="stres">How high is your stress level right now?</string>
+    <string name="stres_rendah">Low</string>
+    <string name="stres_sedang">Medium</string>
+    <string name="stres_tinggi">High</string>
+
+    <string name="skor_burnout">Burnout Score: %1$d / 100</string>
+
+    <string name="level_low">Low</string>
+    <string name="level_medium">Medium</string>
+    <string name="level_high">High</string>
+
+    <string name="deskripsi_low">You are in good condition. Keep the balance!</string>
+    <string name="deskripsi_medium">You are showing signs of burnout. Try to get more rest.</string>
+    <string name="deskripsi_high">Your burnout level is quite high. Take time for recovery immediately.</string>
+
+    <string name="saran_title">Recovery Suggestions</string>
+    <string name="saran_low">• Continue your good habits\n• Maintain sleep patterns\n• Make time for hobbies</string>
+    <string name="saran_medium">• Reduce night screen time\n• Try 4-7-8 breathing technique\n• Talk to friends or family</string>
+    <string name="saran_high">• Take a break from work/studies\n• Do light physical activity\n• Consider professional counseling</string>
+
+    <string name="tombol_hitung">Check My Burnout</string>
+    <string name="hitung_ulang">Check Again</string>
+    <string name="input_invalid">Please enter valid sleep hours (0 - 24)</string>
+    <string name="tentang_aplikasi">About App</string>
+    <string name="kembali">Back</string>
+    <string name="bagikan">Share</string>
+    <string name="bagikan_template">BurnoutGuard\n\nMy Burnout Score: %1$d / 100 (%2$s)\n\n%3$s\n\nCheck yours on BurnoutGuard!</string>
+    <string name="copyright">BurnoutGuard is a simple app to help detect burnout levels.\n\nCreated for assessment task.\n\nBurnout is a state of physical, emotional, and mental exhaustion caused by prolonged stress.\n\n© 2026 BurnoutGuard</string>
+
+</resources>

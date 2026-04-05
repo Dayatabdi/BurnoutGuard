@@ -14,17 +14,31 @@
     <string name="overwhelmed">Merasa overwhelmed dengan tugas/kuliah/kerja</string>
 
     <string name="stres">Seberapa tinggi tingkat stres kamu saat ini?</string>
-    <string name="low">Rendah</string>
-    <string name="medium">Sedang</string>
-    <string name="high">Tinggi</string>
+    <string name="stres_rendah">Rendah</string>
+    <string name="stres_sedang">Sedang</string>
+    <string name="stres_tinggi">Tinggi</string>
+
+    <string name="skor_burnout">Skor Burnout: %1$d / 100</string>
+
+    <string name="level_low">Rendah</string>
+    <string name="level_medium">Sedang</string>
+    <string name="level_high">Tinggi</string>
+
+    <string name="deskripsi_low">Kondisi kamu cukup baik. Tetap jaga keseimbangan ya!</string>
+    <string name="deskripsi_medium">Kamu mulai menunjukkan tanda burnout. Sebaiknya mulai istirahat lebih banyak.</string>
+    <string name="deskripsi_high">Burnout level kamu cukup tinggi. Segera ambil waktu untuk recovery.</string>
+
+    <string name="saran_title">Saran Recovery</string>
+    <string name="saran_low">• Teruskan kebiasaan baikmu\n• Jaga pola tidur\n• Luangkan waktu untuk hobi</string>
+    <string name="saran_medium">• Kurangi screen time malam hari\n• Coba teknik pernapasan 4-7-8\n• Bicara dengan teman atau keluarga</string>
+    <string name="saran_high">• Ambil jeda dari pekerjaan/kuliah jika memungkinkan\n• Lakukan aktivitas fisik ringan\n• Pertimbangkan konsultasi dengan konselor</string>
 
     <string name="tombol_hitung">Cek Burnout Saya</string>
+    <string name="hitung_ulang">Cek Lagi</string>
     <string name="input_invalid">Harap isi jumlah jam tidur dengan benar (0 - 24)</string>
-    <string name="pilih_minimal_satu">Pilih minimal satu gejala ya</string>
     <string name="tentang_aplikasi">Tentang Aplikasi</string>
     <string name="kembali">Kembali</string>
     <string name="bagikan">Bagikan</string>
-    <string name="deskripsi">BurnoutGuard adalah aplikasi sederhana untuk membantu mendeteksi tingkat burnout.\n\nAplikasi ini dibuat sebagai tugas asesmen. \n\nBurnout adalah kondisi kelelahan fisik, emosional, dan mental akibat stres berkepanjangan.</string>
-    <string name="copyright"> 2026 BurnoutGuard</string>
-
+    <string name="bagikan_template">BurnoutGuard\n\nSkor Burnout saya: %1$d / 100 (%2$s)\n\n%3$s\n\nCek burnout kamu juga di BurnoutGuard!</string>
+    <string name="copyright">BurnoutGuard adalah aplikasi sederhana untuk membantu mendeteksi tingkat burnout.\n\nAplikasi ini dibuat sebagai tugas asesmen.\n\nBurnout adalah kondisi kelelahan fisik, emosional, dan mental akibat stres berkepanjangan.\n\n© 2026 BurnoutGuard</string>
 </resources>

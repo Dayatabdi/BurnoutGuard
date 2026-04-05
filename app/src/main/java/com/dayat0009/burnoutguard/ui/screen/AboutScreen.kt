@@ -22,11 +22,43 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.dayat0009.burnoutguard.ui.theme.BurnoutGuardTheme
-
+import com.dayat0009.burnoutguard.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AboutScreen(navController: NavHostController){
-
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                navigationIcon = {
+                    IconButton(onClick = {navController.popBackStack() }) {
+                        Icon(imageVector = Icons.AutoMirrored.Filled.ArrowBack,
+                            contentDescription = stringResource(R.string.kembali),
+                            tint = MaterialTheme.colorScheme.primary
+                        )
+                    }
+                },
+                title = {
+                    Text(text = stringResource(id = R.string.tentang_aplikasi))
+                },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = MaterialTheme.colorScheme.primaryContainer,
+                    titleContentColor = MaterialTheme.colorScheme.onPrimaryContainer
+                )
+            )
+        }
+    ) { innerPadding ->
+        Text(
+            text = stringResource(R.string.deskripsi),
+            modifier = Modifier.padding(innerPadding).padding(16.dp)
+        )
+    }
 }
-
+@Preview(showBackground = true)
+@Preview(uiMode = Configuration.UI_MODE_NIGHT_YES,    showBackground = true)
+@Composable
+fun GreetingPreview() {
+    BurnoutGuardTheme{
+        AboutScreen(rememberNavController())
+    }
+}
